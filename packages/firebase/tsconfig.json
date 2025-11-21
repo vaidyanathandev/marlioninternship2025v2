@@ -1,0 +1,12 @@
+{
+  "extends": "@marlion/config/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@marlion/types": ["../types/src"],
+      "@marlion/config": ["../config/src"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}

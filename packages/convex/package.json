@@ -1,0 +1,17 @@
+{
+  "name": "@marlion/convex",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "convex dev",
+    "deploy": "convex deploy",
+    "codegen": "convex codegen"
+  },
+  "dependencies": {
+    "convex": "^1.18.0",
+    "@marlion/types": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}

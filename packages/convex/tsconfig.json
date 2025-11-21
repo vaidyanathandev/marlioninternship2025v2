@@ -1,0 +1,15 @@
+{
+  "extends": "@marlion/config/tsconfig.json",
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "lib": ["ES2021"],
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@marlion/types": ["../types/src"]
+    }
+  },
+  "include": ["convex/**/*"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,16 @@
+{
+  "extends": "@marlion/config/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@marlion/ui": ["../../packages/ui/src"],
+      "@marlion/types": ["../../packages/types/src"],
+      "@marlion/config": ["../../packages/config/src"],
+      "@marlion/firebase": ["../../packages/firebase/src"],
+      "@marlion/ai": ["../../packages/ai/src"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
