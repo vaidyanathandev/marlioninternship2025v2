@@ -1,0 +1,7 @@
+{
+  "name": "Marlion Tech Internship Portal",
+  "description": "AI-first platform for student registration, onboarding, and management for the 2025 Winter Internship.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
